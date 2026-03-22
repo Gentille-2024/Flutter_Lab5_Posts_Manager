@@ -1,0 +1,28 @@
+name: offline_posts_manager
+description: "Offline Posts Manager — Local CRUD App for managing posts without internet."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Works on ALL platforms including Web — no setup needed
+  shared_preferences: ^2.2.2
+
+  # For generating unique IDs
+  uuid: ^4.3.3
+
+  # Default Flutter icons
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
